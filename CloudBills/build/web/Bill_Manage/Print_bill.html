@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../bills.css">
+        <title>Cloud Bills</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+  <a href="../main_index.html" class="button">Home</a>
+        <div class="language">
+            Change Language: <a href="Print_bill_ta.html" class="button"> தமிழ்</a> <a href="Print_bill.html "class="button">English</a>
+        </div>
+        <form action="">
+        <div class="section">
+            <p><label> Bill Id : </label> <input type="numer" name="bill_id" id="bid"></p>
+            <p> <input type="button" name="view_bill" id="vbill" value="View Bill" class="buttons"></p>
+            <p><label> Customer Id : </label><input type="number" name="customer_id" id="cid"></p>
+            <p><label> Customer Name : </label><input type="text" name="customer_name" id="cname"></p>
+            <p> <input type="button" name="view_bills" id="vbills" value="View Bills of Customer" class="buttons"></p><br/>
+            <p> <input type="button" name="print_bill" id="pbill" value="Print Bill" class="buttons"></p>
+        </div>
+        </form>
+    </body>
+</html>

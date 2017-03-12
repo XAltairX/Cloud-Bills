@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="ta">
+    
+    <head>
+        <SCRIPT language=JavaScript src="http://www.higopi.com/script/ucedit/common.js"></SCRIPT>
+        <SCRIPT language=JavaScript src="http://www.higopi.com/script/ucedit/tamil.js"></SCRIPT>
+             <link rel="stylesheet" type="text/css" href="../bills.css">
+        <title>Cloud Bills</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="language">
+            Change Language: <a href="Register_ta.html" class="button"> தமிழ்</a> <a href="Register.html "class="button">English</a>
+        </div>
+        <form action="Change_ta.html">
+        <div class="section" >
+        <p> <label>வாடிக்கையாளர் பெயர்:  </label><input type="text"  name="username" onKeyDown="toggleKBMode(event)" onKeyPress="javascript:convertThis(event)"></input></p>
+        <p> <label>கடவுசொல்    : </label><input type="password" name="password" id="ps" onKeyDown="toggleKBMode(event)" onKeyPress="javascript:convertThis(event)"></p>
+        <p> <label>கடவுச்சொல்லை <br> உறுதிப்படுத்தவும் :  </label><input type="password" name="cpassword" id="psc" onKeyDown="toggleKBMode(event)" onKeyPress="javascript:convertThis(event)"></p>
+        <p> <label>மின்னஞ்சல் :  </label><input type="email" name="email_id" id="ei"></p>
+        <p> <label>தொலைபேசி எண்:  </label><input type="tel" name="mobile_no" id="mn"></p>
+        <p> <label>கடை பெயர்:  </label><input type="text" name="shop_name" id="sn" onKeyDown="toggleKBMode(event)" onKeyPress="javascript:convertThis(event)"></p>
+        <p><center><button type="submit" name="submit" value="Submit" id="sm">பதிவு செய்</button></center></p>
+        </div>
+        </form>
+    </body>
+</html>

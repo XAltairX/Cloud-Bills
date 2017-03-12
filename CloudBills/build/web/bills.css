@@ -1,0 +1,27 @@
+         body { background-color: linen;}
+         .language{ padding-left: 90%; }
+         form  { display: table;}
+         p     { display: table-row;  }
+         label { display: table-cell; }
+         input { display: table-cell; }
+         button{ font-size: 110%;}
+        .section {
+            font-size: 150%;
+            background: green;
+            color: white;
+            border-radius: 1em;
+            padding: 1em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%) 
+            }
+         a.button {
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+            text-decoration: none;
+            color: initial;
+            padding: 5px;
+        }
